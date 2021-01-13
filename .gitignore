@@ -1,3 +1,5 @@
+<<<<<<< HEAD
+=======
 # Created by https://www.toptal.com/developers/gitignore/api/venv,jupyternotebooks,visualstudiocode
 # Edit at https://www.toptal.com/developers/gitignore?templates=venv,jupyternotebooks,visualstudiocode
 
@@ -9,6 +11,8 @@
 */.ipynb_checkpoints/*
 
 # IPython
+profile_default/
+ipython_config.py
 
 # Remove previous ipynb_checkpoints
 #   git rm -r .ipynb_checkpoints/
@@ -17,8 +21,12 @@
 # Virtualenv
 # http://iamzed.com/2009/05/07/a-primer-on-virtualenv/
 
+<<<<<<< HEAD
 .venv
+#pip-selfcheck.json
 
+=======
+>>>>>>> eb4f35b26b67291c1c2c84f9e1962c4e1cabf396
 ### VisualStudioCode ###
 .vscode/*
 
@@ -29,3 +37,4 @@
 .ionide
 
 # End of https://www.toptal.com/developers/gitignore/api/venv,jupyternotebooks,visualstudiocode
+>>>>>>> 568ea3d4ad81a1882808da9905074c1664754517
