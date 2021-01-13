@@ -19,9 +19,12 @@ ipython_config.py
 # Virtualenv
 # http://iamzed.com/2009/05/07/a-primer-on-virtualenv/
 
+<<<<<<< HEAD
 .venv
 #pip-selfcheck.json
 
+=======
+>>>>>>> eb4f35b26b67291c1c2c84f9e1962c4e1cabf396
 ### VisualStudioCode ###
 .vscode/*
 
