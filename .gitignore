@@ -1,1 +1,31 @@
-venv/
+# Created by https://www.toptal.com/developers/gitignore/api/venv,jupyternotebooks,visualstudiocode
+# Edit at https://www.toptal.com/developers/gitignore?templates=venv,jupyternotebooks,visualstudiocode
+
+### JupyterNotebooks ###
+# gitignore template for Jupyter Notebooks
+# website: http://jupyter.org/
+
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# IPython
+
+# Remove previous ipynb_checkpoints
+#   git rm -r .ipynb_checkpoints/
+
+### venv ###
+# Virtualenv
+# http://iamzed.com/2009/05/07/a-primer-on-virtualenv/
+
+.venv
+
+### VisualStudioCode ###
+.vscode/*
+
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+.ionide
+
+# End of https://www.toptal.com/developers/gitignore/api/venv,jupyternotebooks,visualstudiocode
